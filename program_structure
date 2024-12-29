@@ -1,0 +1,49 @@
+app.py                         # Hlavní spouštěcí soubor programu
+│
+── controllers/                # Moduly pro řízení logiky aplikace (Controllers)
+│   ├── __init__.py            # Inicializace balíčku controllers
+│   └── mainController.py      # Hlavní kontroler, obsahuje logiku aplikace
+├── images                     # Složka pro uložení obrázků používaných v aplikaci
+├── models/                    # Datové modely a třídy pro práci s daty
+│   ├── __init__.py            # Inicializace balíčku models
+│   ├── order.py               # Model pro objednávky
+│   ├── paymant.py             # Model pro platby
+│   ├── pizza.py               # Model pro pizzu
+│   ├── sales.py               # Model pro prodeje
+│   └── topping.py             # Model pro přísady na pizzu
+│
+├── receipts                   # Složka pro generované účtenky
+│
+├── utils/                     # Pomocné nástroje a utility
+│   ├── __init__.py            # Inicializace balíčku utils
+│   ├── fileManager.py         # Správa souborů (čtení a zápis)
+│   ├── parser.py              # proces analýzy a zpracování dat
+│   └── plot_utils.py          # Nástroje pro vykreslování grafů
+│
+├── views/                     # Uživatelské rozhraní aplikace (Views)
+│   ├── __init__.py            # Inicializace balíčku views
+│   └── ui.py                  # Moduly pro zobrazení a UI
+│
+├── add_topping_dialog.py      # Dialog pro přidání přísady na pizzu
+├── completed_orders.json      # Soubor s daty dokončených objednávek
+├── completed_orders_view.py   # Modul pro zobrazení dokončených objednávek
+├── config.json                # Konfigurační soubor aplikace
+├── comfirm_paymant_dialog.py  # Dialog pro potvrzení platby
+├── controller.py              # Centrální řízení aplikace
+├── create_orders_view.py      # Modul pro vytváření objednávek
+├── current_orders_view.py     # Modul pro zobrazení aktuálních objednávek
+├── login_dialog.py            # Modul pro dialog přihlášení uživatele
+├── models.py                  # Modul obsahující datové modely
+├── notifikations.py           # Modul pro notifikace
+├── orders.json                # Soubor s daty objednávek
+├── pizza_app.pdf              # zadání úkolu
+├── process_payment_dialog.py  # Dialog pro zpracování platby
+├── program_structure.txt      # Dokumentace struktury programu
+├── receipt_generator.py       # Generátor účtenek
+├── sales.json                 # Soubor s daty prodejů
+├── user.py                    # Model pro uživatele
+├── user_management_view.py    # Modul pro správu uživatelů (UI)
+├── user_management.py         # Modul pro logiku správy uživatelů
+├── user.json                  # Soubor s daty uživatelů
+├── utils.py                   # Pomocné funkce a nástroje
+├── view_orders_dialog.py      # Modul pro zobrazení objednávek
